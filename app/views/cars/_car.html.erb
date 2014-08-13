@@ -1,0 +1,8 @@
+<tr>
+  <td class='make'><%= car.make %></td>
+  <td class='model'><%= car.model %></td>
+  <td class='year'><%= car.year %></td>
+  <td class='price'><%= number_to_currency(car.price) %></td>
+  <td class='actions'><%= link_to 'Edit', edit_car_path(car) %></td>
+  <!--<td class='actions'><%= link_to 'Delete', car_path(car, method: :delete) %></td>-->
+</tr>
